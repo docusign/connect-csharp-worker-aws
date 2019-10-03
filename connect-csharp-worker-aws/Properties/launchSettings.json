@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "connect-csharp-worker-aws": {
+      "commandName": "Project"
+    }
+  }
+}

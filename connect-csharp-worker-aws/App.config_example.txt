@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <!-- Your data -->
+    <add key="DS_CLIENT_ID" value="12345-..." />
+    <add key="DS_IMPERSONATED_USER_GUID" value="12345-..." />
+    <add key="AWS_ACCOUNT" value="12345" />
+    <add key="AWS_SECRET" value="12345" />
+    <add key="BASIC_AUTH_NAME" value="name" />
+    <add key="BASIC_AUTH_PW" value="12345" />
+    <add key="QUEUE_URL" value="https://example" />
+    <add key="AWS_ACCOUNT" value="a1b2c3" />
+    <add key="AWS_SECRET" value="a1b2c3" />
+    <add key="DS_PRIVATE_KEY" value="-----BEGIN RSA PRIVATE KEY-----&#xA;
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&#xA;
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&#xA;
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&#xA;
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXR8q+ReuJAoIBA/omKBC10Fi8ez&#xA;
+...
+XXXXXXXXXXXXXXXXXXXXXXXAAshxKUsvW7Kf8a60BoVMi32qyGrK&#xA;
+-----END RSA PRIVATE KEY-----&#xA;" />
+    <!-- Used for testing -->
+    <add key="DS_CC_1_EMAIL" value="chen@docusign.com" />
+    <add key="DS_CC_1_NAME" value="Chen exmp" />
+    <add key="DS_SIGNER_1_EMAIL" value="Larry@docusign.com" />
+    <add key="DS_SIGNER_1_NAME" value="Larry exmp" />
+    <add key="ENABLE_BREAK_TEST" value="true" />
+    <add key="TEST_OUTPUT_DIR_NAME" value="test_messages" />
+    <add key="TEST_ENQUEUE_URL" value="https://example" />
+	<!-- Default data -->
+    <add key="DS_TARGET_ACCOUNT_ID" value="FALSE" />
+    <add key="DS_AUTH_SERVER" value="https://account-d.docusign.com"/>
+    <add key="DEBUG" value="true" />
+    <add key="ENVELOPE_CUSTOM_FIELD" value="Sales order" />
+    <add key="OUTPUT_FILE_PREFIX" value="order_" />
+  </appSettings>
+</configuration>
