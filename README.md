@@ -1,6 +1,6 @@
 # C#: Connect Worker for AWS
 
-Repository: [connect-csharp-worker-aws](https://github.docusignhq.com/chen-ostrovski/connect-csharp-worker-aws)
+Repository: [connect-csharp-worker-aws](https://github.com/docusign/connect-csharp-worker-aws)
 
 ## Introduction
 
